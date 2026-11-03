@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ~/Documents/flaskTest
+cd "$(dirname "$0")/source"
 source .venv/bin/activate
 python3 app.py &
 sleep 1
