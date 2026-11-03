@@ -1,10 +1,6 @@
-from flask import Flask, render_template, request
-import pandas as pd
-from matplotlib import use; use('Agg') #macOS bugFix
-import matplotlib.pyplot as plt
+from flask import Flask, render_template
 
 app = Flask(__name__)
-df = pd.read_csv("employeeCleaned.csv")
 
 @app.route("/", methods=["GET", "POST"]) 
 
