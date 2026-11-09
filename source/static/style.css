@@ -1,0 +1,27 @@
+body{
+  margin: 0px;
+	font-family: Verdana;
+}
+
+.header {
+	padding: 10px;
+	text-align: center;
+	background: #00509c;
+	color: white;
+	font-size: 20px;
+}
+
+.page{
+	margin: 20px;
+}
+
+.links {
+	display: flex;
+}
+
+.links button {
+	background-color: light-grey;
+	margin: 10px;
+	padding: 20px;
+	cursor: pointer;
+}
