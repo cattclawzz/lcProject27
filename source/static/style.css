@@ -1,5 +1,5 @@
 body{
-  margin: 0px;
+    margin: 0px;
 	font-family: Verdana;
 }
 
@@ -7,6 +7,14 @@ body{
 	padding: 10px;
 	text-align: center;
 	background: #00509c;
+	color: white;
+	font-size: 20px;
+}
+
+.nav {
+	padding: 1px;
+	text-align: center;
+	background: #00105c;
 	color: white;
 	font-size: 20px;
 }
